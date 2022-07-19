@@ -1,1 +1,61 @@
-// TODO
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  margin-bottom: 100px;
+
+  > header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 64px;
+
+    img {
+      width: 1440px;
+      height: 400px;
+
+      margin-bottom: 60px;
+    }
+
+    h1 {
+      color: var(--heading);
+      margin-bottom: 24px;
+    }
+
+    footer {
+      display: flex;
+
+      div {
+        display: flex;
+        justify-content: center;
+
+        p {
+          font-size: 14px;
+        }
+
+        svg {
+          margin-right: 8px;
+        }
+
+        & + div {
+          margin-left: 24px;
+        }
+      }
+    }
+  }
+
+  article {
+    width: 100%;
+
+    h1 {
+      color: var(--heading);
+      margin: 40px 0;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+  }
+}

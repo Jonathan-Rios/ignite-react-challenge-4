@@ -1,1 +1,75 @@
-// TODO
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+
+  .post {
+    width: 100%;
+    padding: 10px;
+
+    & + .post {
+      margin-top: 48px;
+    }
+
+    > h1 {
+      color: var(--heading);
+      margin-bottom: 8px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    > p {
+      margin-bottom: 24px;
+      font-size: 18px;
+    }
+
+    footer {
+      display: flex;
+
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          font-size: 14px;
+        }
+
+        svg {
+          margin-right: 8px;
+        }
+
+        & + div {
+          margin-left: 24px;
+        }
+      }
+    }
+
+    &:hover {
+      h1 {
+        color: var(--highlight);
+      }
+      border-left: 1px solid var(--highlight);
+      cursor: pointer;
+    }
+  }
+
+  .footer {
+    width: 100%;
+    margin: 64px 0;
+
+    button {
+      color: var(--highlight);
+      font-size: 18px;
+      background: none;
+      border: none;
+      font-weight: 600;
+
+      &:hover {
+        color: var(--heading);
+      }
+    }
+  }
+}
