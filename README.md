@@ -74,37 +74,12 @@ $ npm run start
 ```
 - O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-- Lembrando que será necessário configurar e rodar o [Servidor](https://github.com/Jonathan-Rios/repo-server.git) para ver o funcionamento completo.
-
-- Não necessário para rodar, mas caso queira ver o projeto [Mobile](https://github.com/Jonathan-Rios/repo-mobile.git)
-
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através do link abaixo:
-
- - [Layout Web](https://www.figma.com/community/file/1102912516166573468)
-
-Lembrando que você precisa ter uma conta no [Figma](http://figma.com/).
 
 ## 📝 License
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE.md) para mais detalhes.
 
 <br />
-
----
-
-## 📝 Anotações pessoais
-
-<br />
-
-<h3>Exemplo de descrição </h3>
-
-```bash
-# Comentário
-➜ código # Comentário
-```
-
 
 <br />
 
