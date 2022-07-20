@@ -57,9 +57,9 @@ Ainda sim se desejar testar.
 Clone o projeto e acesse a pasta do mesmo.
 
 ```bash
-$ git clone https://github.com/Jonathan-Rios/nome-do-repo.git
+$ git clone https://github.com/Jonathan-Rios/ignite-react-challenge-4
 
-$ cd nome-do-repo
+$ cd ignite-react-challenge-4
 ```
 
 Para iniciá-lo, siga os passos abaixo:
@@ -70,7 +70,7 @@ $ npm install
 preencha nas .env.local os modelos seguidos do .env.local.example, obtidos pelo seu repositório do prisma.
 
 # Iniciar o projeto
-$ npm run start
+$ npm run dev
 ```
 - O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
